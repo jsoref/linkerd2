@@ -1,0 +1,13 @@
+/testdata/
+ignore$
+\.enc$
+\.lock$
+\.pdf$
+\.pem$
+\.png$
+^cli/cmd/upgrade_test\.go$
+^go\.(?:mod|sum)$
+^web/app/js/components/util/SvgWrappers\.jsx$
+^web/app/js/locales/(?!en/)
+^\.github/actions/
+^\.github/workflows/

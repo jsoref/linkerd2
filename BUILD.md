@@ -73,7 +73,7 @@ its extensions are written in Go. The dashboard UI is a React application.
   - [`web`](web): Provides a UI dashboard to view and drive the control plane.
 - [`multicluster extension`](multicluster)
   - [`linkerd-gateway`]: Accepts requests from other clusters and forwards them
-    to the appropriate destionation in the local cluster.
+    to the appropriate destination in the local cluster.
   - [`linkerd-service-mirror-xxx`](multicluster/service-mirror): Controller
     observing the labeling of exported services in the target cluster, each one
     for which it will create a mirrored service in the local cluster.
@@ -375,7 +375,7 @@ To develop with a webpack dev server:
       on :8185
     - `grafana` is port-forwarded from the Kubernetes cluster via `kubectl` on
       :3000
-    - `metrics-api` is port-forwarded from the Kubernets cluster via `kubectl`
+    - `metrics-api` is port-forwarded from the Kubernetes cluster via `kubectl`
       on :8085
 
 2. Go to [http://localhost:7777](http://localhost:7777) to see everything
